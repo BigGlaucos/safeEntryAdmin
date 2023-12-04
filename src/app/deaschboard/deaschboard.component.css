@@ -3,7 +3,7 @@
     width: 100vw;
     display: flex;
     gap: 2rem;
-    background-color: rgb(93, 93, 238);
+    background: var(--gradiant, linear-gradient(90deg, #1379bd 30.47%, #0c99f7c9 96.22%));
 }
 .box{
     display: flex;
@@ -25,7 +25,7 @@
     
 }
 .cont{
-
+    border-radius: 15px;
     background-color: white;
     padding: 10px;
     display: flex;
@@ -36,7 +36,7 @@
 }
 .box-cont{
     width: 35%;
-    background-color: #2F69EE;
+    background-color: #2f68ee70;
     height: 50px;
     display: flex;
     align-items: center;
@@ -86,18 +86,19 @@ border-bottom-right-radius: 35px;
 
 table {
     font-family: arial, sans-serif;
-    border-collapse: collapse;
+    border-radius: 15px;
+
     width: 100%;
-    height: 30%;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
+    height: 10%;
+}
+
+td, th {
+    border: 2px solid #2f68ee70;
+    text-align: center;
+    
+}
+
+tr:nth-child(even) {
     background-color: #dddddd;
   }
 
@@ -118,7 +119,7 @@ table {
     color: wheat;
     width: 100%;
     height: 4rem;
-    background-color: rgb(93, 93, 238);
+    background: var(--gradiant, linear-gradient(90deg, #1379bd 30.47%, #0c99f7c9 96.22%));
     border-top-left-radius: 30px;
     border-bottom-left-radius:30px ;
 
