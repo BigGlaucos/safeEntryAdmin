@@ -13,7 +13,6 @@ export class GeralService {
     return this.http.get(`http://localhost:4000/user/empresa/${id}`);
   }
 
-
   getall(): Observable<any>
   {
     return this.http.get('http://localhost:4000/user/users');

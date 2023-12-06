@@ -10,6 +10,7 @@
   },
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
     "@angular/animations": "^17.0.5",
     "@angular/common": "^17.0.5",
     "@angular/compiler": "^17.0.5",
@@ -19,6 +20,17 @@
     "@angular/platform-browser-dynamic": "^17.0.5",
     "@angular/router": "^17.0.5",
     "angular": "^1.6.10",
+=======
+    "@angular/animations": "^16.2.0",
+    "@angular/common": "^16.2.0",
+    "@angular/compiler": "^16.2.0",
+    "@angular/core": "^16.2.0",
+    "@angular/forms": "^16.2.0",
+    "@angular/platform-browser": "^16.2.0",
+    "@angular/platform-browser-dynamic": "^16.2.0",
+    "@angular/router": "^16.2.0",
+    "angular": "^1.8.3",
+>>>>>>> 487b4c28c41c6f0b1b70af4dfcc8e0ad35ebc223
     "bootstrap": "^5.3.2",
     "botstrap": "^0.15.4",
     "rxjs": "~7.8.0",
