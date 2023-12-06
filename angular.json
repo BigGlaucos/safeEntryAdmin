@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "SafeEntryAdmin:build:production"
+              "buildTarget": "SafeEntryAdmin:build:production"
             },
             "development": {
-              "browserTarget": "SafeEntryAdmin:build:development"
+              "buildTarget": "SafeEntryAdmin:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -75,7 +75,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "SafeEntryAdmin:build"
+            "buildTarget": "SafeEntryAdmin:build"
           }
         },
         "test": {

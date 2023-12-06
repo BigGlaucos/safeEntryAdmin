@@ -1,31 +1,38 @@
-.fundo{
+/* Fundo da página */
+.fundo {
     height: 100vh;
     width: 100vw;
     display: flex;
     gap: 2rem;
-    background-color: rgb(93, 93, 238);
-}
-.box{
+    background-color: #5d5dee; /* Azul mais escuro */
+  }
+  
+  /* Caixa principal */
+  .box {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width:90%;
+    width: 90%;
     height: 95%;
     margin: auto;
-   background-color:rgb(236, 231, 231) ;
-}
-.conteudo{
+    background-color: #ece7e7; /* Cinza claro */
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Conteúdo dentro da caixa principal */
+  .conteudo {
     height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
     padding: 20px;
     justify-content: center;
-    
-}
-.cont{
-
+  }
+  
+  /* Conteúdo da seção */
+  .cont {
     background-color: white;
     padding: 10px;
     display: flex;
@@ -33,43 +40,51 @@
     overflow-y: auto;
     justify-content: space-around;
     width: 98%;
-}
-.box-cont{
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Caixas de conteúdo */
+  .box-cont {
     width: 35%;
-    background-color: #2F69EE;
+    background-color: #2f69ee; /* Azul */
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.box-cont-id{
+    border-radius: 8px;
+  }
+  
+  /* Caixa de identificação */
+  .box-cont-id {
     width: 10%;
     height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
-
-}
-
-/* NAV BAR */
-.barr
-{
-width: 20%;
-background-color:#2C2C2C ;
-border-top-right-radius: 35px;
-border-bottom-right-radius: 35px;
-}
-.image{
+    border-radius: 8px;
+  }
+  
+  /* Barra lateral */
+  .barr {
+    width: 20%;
+    background-color: #2c2c2c;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+  }
+  
+  /* Imagem e informações */
+  .image {
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 20px;
     flex-direction: column;
-}
-.info{
+  }
+  
+  .info {
     color: white;
-    background-color: #2F69EE;
+    background-color: #2f69ee; /* Azul */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,74 +93,72 @@ border-bottom-right-radius: 35px;
     width: 200px;
     border-radius: 20px;
     margin: 1rem;
-
-}
-
-
-
-
-table {
-    font-family: arial, sans-serif;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Sombra mais pronunciada */
+  }
+  
+  /* Tabela */
+  table {
+    font-family: Arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
     height: 30%;
   }
   
-  td, th {
+  td,
+  th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
   }
   
   tr:nth-child(even) {
-    background-color: #dddddd;
+    background-color: #f3f3f3; /* Cinza mais claro para linhas pares */
   }
-
-
-
-  .ops{
-
+  
+  /* Operações */
+  .ops {
     height: 5%;
     width: 100%;
-
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     padding-right: 5%;
   }
-
-
-  .user{
+  
+  /* Usuário */
+  .user {
     color: wheat;
     width: 100%;
     height: 4rem;
-    background-color: rgb(93, 93, 238);
+    background-color: #5d5dee; /* Azul mais escuro */
     border-top-left-radius: 30px;
-    border-bottom-left-radius:30px ;
-
+    border-bottom-left-radius: 30px;
     font-size: 25px;
-
     display: flex;
-    align-items:center;
+    align-items: center;
     padding: 10px;
     justify-content: center;
     margin-bottom: 15px;
-}
-
-.SAIR{
-   width: 100%;
+  }
   
-   width: 100%;
-   height: 4rem;
-   
-   border-top-left-radius: 30px;
-   border-bottom-left-radius:30px ;
-
-   font-size: 25px;
+  /* Botão de sair */
+  .SAIR {
+    width: 100%;
+    height: 4rem;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: 25px;
     margin-top: 80%;
-   display: flex;
-   align-items:center;
-   padding: 10px;
-   justify-content: center;
-}
-
-/* ok:  ok nf pk*/
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+    background-color: #5d5dee; /* Azul mais escuro */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Efeito de transição suave */
+  }
+  
+  .SAIR:hover {
+    background-color: #4242c5; /* Mudança de cor ao passar o mouse */
+  }
+  

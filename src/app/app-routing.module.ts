@@ -13,7 +13,7 @@ const routes: Routes = [
     component : LoginComponent
   },
   {
-path: '\deach',
+path: '\dash',
 component : DeaschboardComponent
   },
   {
