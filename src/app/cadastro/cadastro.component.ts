@@ -36,11 +36,14 @@ export class CadastroComponent implements OnInit{
   datA(){
     if(this.form.value.setor == "Administração"){
       this.form.value.admin = true
+      
     }else{
       this.form.value.admin = false
     }
     this.service.postUsers(this.form.value).subscribe(res =>{
-      this.router.navigate(['/deach', {'log' : JSON.parse(this.Admin)}])
+      this.router.navigate(['/deach', {'log' : JSON.parse(this.Admin)
+      
+    }])
     },(err)=>{
       alert("erro ao Registrar menbro")
     })
@@ -48,5 +51,7 @@ export class CadastroComponent implements OnInit{
 
   }
 
+
+  
 
 }
